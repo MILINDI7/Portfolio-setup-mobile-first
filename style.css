@@ -6,13 +6,13 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #e5e5e5;
+  background-color: #fff;
   padding: 0;
 }
 
 .home-page {
   width: 375px;
-  background-color: #e5e5e5;
+  background-color: #fff;
   padding: 10px;
   margin: 0;
 }
@@ -48,6 +48,7 @@ nav {
   align-items: center;
   background-image: url(./Images/header-illsutration-mobile.png);
   background-repeat: no-repeat;
+  background-size:contain;
 }
 
 h1 {
