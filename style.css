@@ -1,0 +1,68 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page {
+  width: 375px;
+  background-color: #e5e5e5;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.menu {
+  width: 18px;
+  height: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./Images/header-illsutration-mobile.png);
+}
+
+h1 {
+  width: 327px;
+  height: 192px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+span {
+  color: #36b37e;
+}
+
+.about-me {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 58px;
+}
+
+.socials {
+  width: 170px;
+  margin-top: 58px;
+}
+
+.disable {
+  margin-top: 58px;
+}
