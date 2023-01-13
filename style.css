@@ -140,7 +140,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
 
@@ -153,7 +153,7 @@ h2 {
 h3 {
   width: 295px;
   height: 57px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -168,7 +168,7 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 305px;
   height: 32px;
@@ -258,7 +258,7 @@ h3 {
   gap: 10px;
   width: 122px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border: 0.1px solid #36b37f;
   border-radius: 4px;
   margin: auto;
@@ -332,7 +332,7 @@ h4 {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 #illus {
