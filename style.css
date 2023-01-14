@@ -127,9 +127,10 @@ h2 {
   margin-top: 50px;
   width: 331px;
   height: 2972px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  display: grid;
   padding: 4px 2px;
   gap: 24px;
 }
