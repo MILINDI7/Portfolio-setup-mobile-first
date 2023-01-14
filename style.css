@@ -288,6 +288,11 @@ h3 {
   align-items: center;
   gap: 24px;
   margin-top: 68px;
+  background-image: 
+    url(./Images/illuss.png),
+    url(./Images/illustration-\ about\ me-\ mobile.png);
+    background-repeat: no-repeat;
+    background-position: 100% -35px, 72% 62%;
 }
 
 h4 {
@@ -335,17 +340,6 @@ h4 {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
-}
-
-#illus {
-  position: absolute;
-  top: 814%;
-}
-
-#illus2 {
-  position: absolute;
-  left: 80%;
-  top: 810%;
 }
 
 .languages {
