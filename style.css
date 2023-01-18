@@ -162,13 +162,12 @@ h3 {
   color: #3a4a42;
 }
 
-.buttons {
+.buttons li{
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
   gap: 8px;
-  width: 305px;
   height: 32px;
 }
 
@@ -656,4 +655,135 @@ h5 {
   letter-spacing: 0.03em;
   color: #36b37e;
   border: 0.1px solid #fff;
+}
+
+.footer {
+  width: 375px;
+  height: 1600px;
+}
+
+form {
+  width: 375px;
+  height: 879px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 24px;
+  gap: 58px;
+}
+
+.footer-title {
+  width: 327px;
+  height: 363px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+}
+
+#texts {
+  width: 327px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid #D0D9D4;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6B778C;
+  text-align: left;
+  padding: 15px 16px;
+}
+
+#mails {
+  width: 327px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid #D0D9D4;
+  background-color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6B778C;
+  text-align: left;
+  padding: 15px 16px;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #60C095;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091E42;
+}
+
+.form-submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: #36B37F;
+  border: 0.1px solid #36B37F;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin: 0 90px;
+}
+
+#forms-socials {
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
+#fm {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#adress {
+  text-decoration: none;
+  width: 375px;
+  height: 189px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
+  margin-top: -40px;
+  margin-left: -30px;
 }
