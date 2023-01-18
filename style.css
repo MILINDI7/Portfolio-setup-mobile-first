@@ -681,14 +681,14 @@ form {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #texts {
   width: 327px;
   height: 48px;
   box-sizing: border-box;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   background-color: #fff;
   border-radius: 4px;
   font-family: 'Inter', sans-serif;
@@ -698,7 +698,7 @@ form {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #6B778C;
+  color: #6b778c;
   text-align: left;
   padding: 15px 16px;
 }
@@ -707,7 +707,7 @@ form {
   width: 327px;
   height: 48px;
   box-sizing: border-box;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   background-color: #fff;
   border-radius: 4px;
   font-family: 'Inter', sans-serif;
@@ -717,7 +717,7 @@ form {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #6B778C;
+  color: #6b778c;
   text-align: left;
   padding: 15px 16px;
 }
@@ -727,7 +727,7 @@ textarea {
   height: 114px;
   box-sizing: border-box;
   background-color: #fff;
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
   border-radius: 4px;
   padding: 12px;
   font-family: 'Inter', sans-serif;
@@ -735,7 +735,7 @@ textarea {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .form-submit {
@@ -746,8 +746,8 @@ textarea {
   gap: 10px;
   width: 129px;
   height: 48px;
-  background: #36B37F;
-  border: 0.1px solid #36B37F;
+  background: #36b37f;
+  border: 0.1px solid #36b37f;
   border-radius: 4px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -783,7 +783,7 @@ textarea {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
   margin-top: -40px;
   margin-left: -30px;
 }
