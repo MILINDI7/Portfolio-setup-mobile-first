@@ -786,6 +786,30 @@ textarea {
   margin-left: -30px;
 }
 
+.form-submit:hover {
+   background-color: #008552;;
+  }
+
+  .description button:hover {
+    background-color: #008552;;
+  }
+
+  .submition:hover {
+    background-color: #008552;
+  }
+
+  .form-submit:active {
+    background-color: #008552;
+  }
+
+  .description button:active {
+    background-color: #008552;
+  }
+
+  .submition:active {
+    background-color: #008552;
+  }
+
 @media only screen and (max-width: 768px) {
   #navigations {
     display: none;
@@ -1011,5 +1035,29 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .form-submit:hover {
+   background-color: #008552;;
+  }
+
+  .description button:hover {
+    background-color: #008552;;
+  }
+
+  .submition:hover {
+    background-color: #008552;
+  }
+
+  .form-submit:active {
+    background-color: #008552;
+  }
+
+  .description button:active {
+    background-color: #008552;
+  }
+
+  .submition:active {
+    background-color: #008552;
   }
 }
