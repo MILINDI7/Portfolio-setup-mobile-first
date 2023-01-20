@@ -785,3 +785,279 @@ textarea {
   margin-top: -40px;
   margin-left: -30px;
 }
+
+.form-submit:hover {
+  background-color: #008552;
+}
+
+.description button:hover {
+  background-color: #008552;
+}
+
+.submition:hover {
+  background-color: #008552;
+}
+
+.form-submit:active {
+  background-color: #008552;
+}
+
+.description button:active {
+  background-color: #008552;
+}
+
+.submition:active {
+  background-color: #008552;
+}
+
+@media only screen and (max-width: 768px) {
+  #navigations {
+    display: none;
+  }
+
+  #hh2 {
+    display: none;
+  }
+
+  #last {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-page {
+    width: 100%;
+    height: 1200px;
+    background-image: url(./Images/Header-llustration-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  #navigations li {
+    color: #172b4d;
+  }
+
+  .header {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  h1 {
+    width: 920px;
+    height: 114px;
+    margin-bottom: 0;
+  }
+
+  .about-me {
+    width: 720px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .socials {
+    margin-top: -30px;
+  }
+
+  h2 {
+    width: 340px;
+    height: 48px;
+    display: flex;
+  }
+
+  #hh1 {
+    display: none;
+  }
+
+  .works-heading img {
+    display: none;
+  }
+
+  .cards {
+    width: 95%;
+    height: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card1 {
+    width: 369px;
+    height: 520px;
+  }
+
+  .card1 img {
+    width: 369px;
+    height: 260px;
+  }
+
+  .about {
+    width: 100%;
+    height: 808px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:
+      url(./Images/Frame.png),
+      url(./Images/Group.png);
+    background-repeat:
+      no-repeat,
+      no-repeat;
+    background-position: 100% -5%, 0 30%;
+  }
+
+  .description {
+    background-image: none;
+  }
+
+  .description p {
+    width: 720px;
+    margin-bottom: 0;
+  }
+
+  .description button {
+    margin-top: -90px;
+  }
+
+  .languages {
+    width: 92%;
+    height: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer {
+    width: 100%;
+    height: 700px;
+    background-image:
+      url(./Images/footer.png),
+      url(./Images/footer2.png),
+      url(./Images/footer3.png);
+    background-repeat:
+      no-repeat,
+      no-repeat,
+      no-repeat;
+    background-position: 100% 90%, -2% 90%, 12% 80%;
+  }
+
+  .footer-container {
+    width: 94%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 80px 40px;
+    gap: 24px;
+  }
+
+  .footer-title {
+    width: 463px;
+    height: 256px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  form {
+    width: 684px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 0;
+    gap: 24px;
+  }
+
+  #forms-socials {
+    display: none;
+  }
+
+  #adress {
+    display: none;
+  }
+
+  .form-submit {
+    margin-left: 0;
+  }
+
+  #texts {
+    width: 684px;
+  }
+
+  #mails {
+    width: 684px;
+  }
+
+  textarea {
+    width: 684px;
+  }
+
+  footer {
+    width: 100%;
+    height: 21px;
+    border-top: 1px solid #dfe1df;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form-submit:hover {
+    background-color: #008552;
+  }
+
+  .description button:hover {
+    background-color: #008552;
+  }
+
+  .submition:hover {
+    background-color: #008552;
+  }
+
+  .form-submit:active {
+    background-color: #008552;
+  }
+
+  .description button:active {
+    background-color: #008552;
+  }
+
+  .submition:active {
+    background-color: #008552;
+  }
+}

@@ -13,10 +13,15 @@
       <nav>
         <a id="logo">Welcome</a>
         <img class="menu" src="./Images/Union.png" alt="hamburger-icon">
+        <ul id="navigations">
+          <li><a>Portfolio</li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+        </ul>
       </nav>
       <section class="header">
         <h1>
-          Hey there. I’m Mariane<br>
+          Hey there. I’m Mariane.<br>
 <span>I’m a software developer</span>
         </h1>
         <p class="about-me">
@@ -37,8 +42,11 @@ don’t hestiate to contact me.
     </header>
     <section class="works">
       <div class="works-heading">
-        <h2>
+        <h2 id="hh1">
         My Recent<br> Works
+        </h2>
+        <h2 id="hh2">
+          My Recent Works
         </h2>
         <img src="./Images/Indicator.png" alt="Indicator">
       </div>
@@ -158,19 +166,34 @@ don’t hestiate to contact me.</p>
       </div>
     </section>
     <section class="footer">
-      <form  action="https://formspree.io/f/mgeqvzeo" method="POST">
+     <div class="footer-container">
         <h6 class="footer-title">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h6>
-        <label>
-          <input id="texts" type="text" name="names" placeholder="Full name" maxlength="30" required>
-        </label>
-        <label>
-          <input id="mails" type="email" name="email" placeholder="Email address" required>
-        </label>
-        <label>
-          <textarea name="message" maxlength="500" required>Enter text here</textarea>
-        </label>
-        <button class="form-submit" type="submit">Get in touch</button>
-        <div id="forms-socials" class="socials">
+        <form  action="https://formspree.io/f/mgeqvzeo" method="POST">
+          <label>
+            <input id="texts" type="text" name="names" placeholder="Full name" maxlength="30" required>
+          </label>
+          <label>
+            <input id="mails" type="email" name="email" placeholder="Email address" required>
+          </label>
+          <label>
+            <textarea name="message" maxlength="500" required>Enter text here</textarea>
+          </label>
+          <button class="form-submit" type="submit">Get in touch</button>
+          <div id="forms-socials" class="socials">
+            <ul id="fm">
+              <li><a><img src="./Images/twitter.png" alt="twitter"></a></li>
+              <li><a><img src="./Images/Linkedin icon.png" alt="Linkedin"></a></li>
+              <li><a><img src="./Images/medium.png" alt="medium"></a></li>
+              <li><a><img src="./Images/github.png" alt="github"></a></li>
+              <li><a></a><img src="./Images/angellist.png" alt="angellist"></a></li>
+            </ul>
+          </div>
+          <a id="adress" href="#">dshema7@gmail.com</a>
+        </form>
+     </div>
+    </section>
+    <footer>
+      <div id="last" class="socials">
           <ul id="fm">
             <li><a><img src="./Images/twitter.png" alt="twitter"></a></li>
             <li><a><img src="./Images/Linkedin icon.png" alt="Linkedin"></a></li>
@@ -179,9 +202,7 @@ don’t hestiate to contact me.</p>
             <li><a></a><img src="./Images/angellist.png" alt="angellist"></a></li>
           </ul>
         </div>
-        <a id="adress" href="#">dshema7@gmail.com</a>
-      </form>
-    </section>
+    </footer>
   </main>
 </body>
 </html>

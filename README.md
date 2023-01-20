@@ -24,9 +24,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Setup & mobile first <a name="about-project"></a>
+# 📖 Portfolio Setup mobile and desktop versions <a name="about-project"></a>
 
-> Setup & mobile first
+> Portfolio project
 
 **In this project I built a simple portfolio by setting up its mobile first version.
 
