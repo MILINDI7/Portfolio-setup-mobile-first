@@ -130,7 +130,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-Project not yet to be deployed
+>link to deployed page: https://milindi7.github.io/Portfolio-setup-mobile-first/
 
 
 <!-- AUTHORS -->
